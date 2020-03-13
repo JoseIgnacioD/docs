@@ -16,8 +16,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`7.6.1`](https://github.com/docker-library/logstash/blob/1bd7995602e94f42da8a650f7330056fd1c2cae8/7/Dockerfile)
--	[`6.8.7`](https://github.com/docker-library/logstash/blob/16ffef2618cc8407b7f482937395da8a0553740d/6/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `windows-amd64` ARCHITECTURE
+
+[![winamd64/logstash build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/windows-amd64/job/logstash.svg?label=winamd64/logstash%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/windows-amd64/job/logstash/)
 
 # Quick reference
 
