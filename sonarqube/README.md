@@ -16,10 +16,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`7.9.2-community`, `7.9-community`, `lts`](https://github.com/SonarSource/docker-sonarqube/blob/27217fb0cfcd9469571eff710eae434a92a26f72/7/community/Dockerfile)
--	[`8.2-community`, `8-community`, `community`, `latest`](https://github.com/SonarSource/docker-sonarqube/blob/27217fb0cfcd9469571eff710eae434a92a26f72/8/community/Dockerfile)
--	[`8.2-developer`, `8-developer`, `developer`](https://github.com/SonarSource/docker-sonarqube/blob/27217fb0cfcd9469571eff710eae434a92a26f72/8/developer/Dockerfile)
--	[`8.2-enterprise`, `8-enterprise`, `enterprise`](https://github.com/SonarSource/docker-sonarqube/blob/27217fb0cfcd9469571eff710eae434a92a26f72/8/enterprise/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `i386` ARCHITECTURE
+
+[![i386/sonarqube build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/i386/job/sonarqube.svg?label=i386/sonarqube%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/i386/job/sonarqube/)
 
 # Quick reference
 
@@ -125,7 +124,7 @@ $ docker run -ti sonarqube-custom
 Starting from SonarQube 7.8, SonarQube stops gracefully, waiting for any tasks in progress to finish. Waiting for in-progress tasks to finish can take a large amount of time which the docker does not expect by default when stopping. To avoid having the SonarQube instance killed by the Docker daemon after 10 seconds, it is best to configure a timeout to stop the container with `--stop-timeout`. For example:
 
 ```console
-docker run --stop-timeout 3600 sonarqube
+docker run --stop-timeout 3600 i386/sonarqube
 ```
 
 ## Administration
