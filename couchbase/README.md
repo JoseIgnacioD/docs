@@ -16,8 +16,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`latest`, `enterprise`, `6.5.0`, `enterprise-6.5.0`](https://github.com/couchbase/docker/blob/3775225f6eb1e6e9b92bb51ac3c0b86e6989fe9e/enterprise/couchbase-server/6.5.0/Dockerfile)
--	[`community`, `community-6.5.0`](https://github.com/couchbase/docker/blob/1f0db4001167a2d2e2a6a53483e50d9375df1ce4/community/couchbase-server/6.5.0/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `arm32v7` ARCHITECTURE
+
+[![arm32v7/couchbase build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm32v7/job/couchbase.svg?label=arm32v7/couchbase%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v7/job/couchbase/)
 
 # Quick reference
 
