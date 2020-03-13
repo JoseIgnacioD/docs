@@ -16,13 +16,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`8.1`, `8`](https://github.com/oracle/container-images/blob/7a6d6716e9143eabc13a8c22c2d5771d71ef6575/8.1/Dockerfile)
--	[`8.0`](https://github.com/oracle/container-images/blob/7a6d6716e9143eabc13a8c22c2d5771d71ef6575/8.0/Dockerfile)
--	[`8-slim`](https://github.com/oracle/container-images/blob/7a6d6716e9143eabc13a8c22c2d5771d71ef6575/8-slim/Dockerfile)
--	[`7.7`, `7`, `latest`](https://github.com/oracle/container-images/blob/7a6d6716e9143eabc13a8c22c2d5771d71ef6575/7.7/Dockerfile)
--	[`7-slim`](https://github.com/oracle/container-images/blob/7a6d6716e9143eabc13a8c22c2d5771d71ef6575/7-slim/Dockerfile)
--	[`6.10`, `6`](https://github.com/oracle/container-images/blob/7a6d6716e9143eabc13a8c22c2d5771d71ef6575/6.10/Dockerfile)
--	[`6-slim`](https://github.com/oracle/container-images/blob/7a6d6716e9143eabc13a8c22c2d5771d71ef6575/6-slim/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `s390x` ARCHITECTURE
+
+[![s390x/oraclelinux build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/s390x/job/oraclelinux.svg?label=s390x/oraclelinux%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/s390x/job/oraclelinux/)
 
 # Quick reference
 
@@ -57,7 +53,7 @@ Oracle Linux is an open-source operating system available under the GNU General 
 
 ## How to use these images
 
-The Oracle Linux images are intended for use in the **FROM** field of a downstream `Dockerfile`. For example, to use the latest optimized Oracle Linux 7 image, specify `FROM oraclelinux:7-slim`.
+The Oracle Linux images are intended for use in the **FROM** field of a downstream `Dockerfile`. For example, to use the latest optimized Oracle Linux 7 image, specify `FROM s390x/oraclelinux:7-slim`.
 
 ## Official Resources
 
